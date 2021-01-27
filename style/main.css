@@ -1,0 +1,10 @@
+#container
+{
+    width: 100px;
+    height: 40px;
+    position: relative;
+}
+.main-img {
+    width: 100px;
+    height: 40%;
+}
