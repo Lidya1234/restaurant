@@ -2,12 +2,13 @@ const header = () =>
 {  const content =document.querySelector("#content")
    const container = document.createElement("div");
    const mainImage = document.createElement("img")
-   mainImage.src ="D:\Microverse projects\javascript\restaurant\images\restaurant.jpg"
+   mainImage.src ="D:/Microverse projects/javascript/restaurant/images/restaurant.jpg"
    const block =document.createElement("div");
    const heading = document.createElement("h1");
    const desc =document.createElement("p");
    const orderbtn= document.createElement("button")
    container.classList.add("container");
+   mainImage.classList.add("main-img")
    block.classList.add("block");
    heading.textContent = "MY RESTAURANT";
    desc.textContent = "We offer online delivery"
