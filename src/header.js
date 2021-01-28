@@ -1,5 +1,5 @@
 const header = () =>
-{  const content =document.querySelector("#content")
+{  
    const container = document.createElement("div");
    const mainImage = document.createElement("img")
    mainImage.src ="D:/Microverse projects/javascript/restaurant/images/restaurant.jpg"
@@ -7,20 +7,22 @@ const header = () =>
    const heading = document.createElement("h1");
    const desc =document.createElement("p");
    const orderbtn= document.createElement("button")
-   container.classList.add("container");
+   container.classList.add("banner");
    mainImage.classList.add("main-img")
    block.classList.add("block");
-   heading.textContent = "MY RESTAURANT";
-   desc.textContent = "We offer online delivery"
-   orderbtn.textContent = "ORDER";
+   orderbtn.classList.add("btn")
+   orderbtn.classList.add("btn-dark")
+   heading.textContent = "FAMILY RESTAURANT";
+   desc.textContent = "Come and visit us,We offer also online delivery"
+   orderbtn.textContent = "ORDER NOW";
    orderbtn.classList.add("order");
-   content.appendChild(container);
+  
    container.appendChild(mainImage);
    container.appendChild(block);
    block.appendChild(heading);
    block.appendChild(desc);
    block.appendChild(orderbtn);
-   return content;
+   return container;
 
 };
 export default header;

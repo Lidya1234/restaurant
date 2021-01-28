@@ -1,5 +1,5 @@
 const  navbar = () =>
-{   let  content =document.querySelector("#content");
+{   const nav =document.createElement("nav");
     const header = document.createElement("div");
     const navul =document.createElement("ul");
     const navli1 =document.createElement("li");
@@ -10,7 +10,13 @@ const  navbar = () =>
     const nava2 = document.createElement("a");
     const nava3 = document.createElement("a");
     const nava4 = document.createElement("a");
-     navul.classList.add("nav-bar");
+     nav.classList.add("navbar");
+     nav.classList.add("navbar-light");
+     nav.classList.add("bg-dark");
+     header.classList.add("container-fluid")
+     navul.classList.add("nav");
+  
+     navul.classList.add("navbar-right");
      navli1.classList.add("nav-item");
      navli2.classList.add("nav-item");
      navli3.classList.add("nav-item");
@@ -23,7 +29,7 @@ const  navbar = () =>
      nava2.textContent= "SPECIAL";
      nava3.textContent= "RESERVATION";
      nava4.textContent= "CONTACT US";
-     content.appendChild(header);
+     nav.appendChild(header);
      header.appendChild(navul);
      navul.appendChild(navli1);
      navul.appendChild(navli2);
@@ -35,7 +41,7 @@ const  navbar = () =>
      navli4.appendChild(nava4);
     
 
-return content;
+return nav;
 
 };
 export default navbar;
