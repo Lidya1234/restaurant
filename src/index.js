@@ -7,10 +7,17 @@ import specialscard from './specials.js'
 import footer from './footer.js'
 
 document.body.prepend(navbar());
+
 const content = document.querySelector('#content');
 content.appendChild(header());
+const parent =document.createElement('div');
+// const header1 = document.createElement('h1');
+// header1.textContent="hello";
+// parent.appendChild(header1);
+content.appendChild(parent);
+
 
 document.querySelector('body').appendChild(footer());
-let special = speciallist();
+const special = speciallist();
 
-content.appendChild(specialscard(special));
+parent.appendChild(specialscard(special));
