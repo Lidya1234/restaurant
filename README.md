@@ -1,6 +1,6 @@
 # restaurant
 
-This project is a simple restaurant website built with HTML, CSS and Js.It displays the 
+This project is a simple restaurant website built with HTML, CSS, and Js. It displays the 
 ## Built With
 
 - HTML5
