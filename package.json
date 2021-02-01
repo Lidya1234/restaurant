@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack  --mode production",
+    "dev": "webpack --mode development"
   },
   "repository": {
     "type": "git",
@@ -32,6 +33,7 @@
     "webpack-cli": "^4.4.0"
   },
   "dependencies": {
-    "bootstrap": "^4.6.0"
+    "bootstrap": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }
