@@ -1,104 +1,101 @@
-body
-{
-background-color: lightgrey;
+body {
+  background-color: lightgrey;
 }
 
-a
-{   font-style: oblique;
-    color:brown;
+a {
+  font-style: oblique;
+  color: brown;
 }
-a:hover
-{
-    color:whitesmoke;
+
+a:hover {
+  color: whitesmoke;
 }
-.banner
-{   height: 50vh;
-    width:100%;
-    padding: 0;
-    position: relative;
-    margin: 0;
+
+.banner {
+  height: 50vh;
+  width: 100%;
+  padding: 0;
+  position: relative;
+  margin: 0;
 }
-.main-img
-{
-height: 100%;
-width: 100%;
-object-fit: cover;
+
+.main-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
-.block
-{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-  
+
+.block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.block p,h1
-{
-color: aliceblue;
-font-weight: 300;
-font-family: Arial, Helvetica, sans-serif;
-font-style: oblique;
+
+.block p,
+h1 {
+  color: aliceblue;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
 }
-.block p
-{
-padding-left: 10%;
+
+.block p {
+  padding-left: 10%;
 }
-.block button
-{
+
+.block button {
   margin-left: 30%;
   border: none;
   color: gray;
 }
-.heading
-{
-    color: black;
-    margin-left: 40%;
+
+.heading {
+  color: black;
+  margin-left: 40%;
 }
 
-.card-deck
-{
-    margin-left: 10%;
-    margin-right: 10%;
+.card-deck {
+  margin-left: 10%;
+  margin-right: 10%;
 }
-.card:hover
-{
-    transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
 }
-.card-img-top
-{
-    width: 100%;
-    
+
+.card-img-top {
+  width: 100%;
 }
-.contactus
-{
-    margin-top: 20px;
+
+.contactus {
+  margin-top: 20px;
 }
-.contact
-{   margin-top: 20px;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-bottom: 5%;
-    display: flex;
-    justify-content: space-between;
-    
+
+.contact {
+  margin-top: 20px;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: space-between;
 }
-.contact1
-{
-    margin-left: 1%;
+
+.contact1 {
+  margin-left: 1%;
 }
-.menu-img
-{height:50px;
-width: 50px;
+
+.menu-img {
+  height: 50px;
+  width: 50px;
 }
-.footer
-{
-    background-color: gray;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-   
-   
+
+.footer {
+  background-color: gray;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
