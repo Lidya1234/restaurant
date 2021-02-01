@@ -1,7 +1,7 @@
 # restaurant
 
-This project is a simple restaurant website built with HTML, CSS, and Js. It displays the 
-<img src="./dist/images/screenshot.png" alt="screenshot">
+This project is a simple restaurant website built with HTML, CSS, and Js. It displays the home,menu and contact
+<img src="./dist/images/screenshot.PNG" alt="screenshot">
 ## Built With
 
 - HTML5
